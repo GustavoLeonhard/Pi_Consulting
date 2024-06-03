@@ -1,9 +1,10 @@
 ## Star Wars
-Star Wars FastAPI application.
+
+This project provides a Star Wars-themed FastAPI application.
 
 **Installation**
 
-You can choose one of the following installation methods:
+Choose one of the following installation methods:
 
 **Docker**
 
@@ -11,28 +12,30 @@ You can choose one of the following installation methods:
 
    ```bash
    docker build -t starwars .
-Run the container, exposing port 8000 for the application:
 
-Bash
-docker run -p 8000:8000 starwars
+2. Run the container, exposing port 8000 for the application:
 
+   ```bash
+   docker run -p 8000:8000 starwars
 
-Install dependencies:
+**Local Environment**
 
-Bash
-pip install -r requirements.txt
+1. Install dependencies:
 
-Navigate to the project's root directory (star_wars).
-Run the application:
+   ```bash
+   pip install -r requirements.txt
 
-Bash
-uvicorn main:app --reload
+2. Navigate to the project's root directory
 
-Running the Application
+3. Run the application:
 
-Once you've installed and run the application, you can access it at:
+   ```bash
+   uvicorn main:app --reload
 
-Swagger Documentation
+**Swagger Documentation**
 
-View the swagger API documentation at http://127.0.0.1:8000/docs (or http://localhost:8000/docs if using Docker).
+View the interactive API documentation at http://127.0.0.1:8000/docs (or http://localhost:8000/docs if using Docker).
 
+**Testing with Postman**
+You can run all postman test cases in this link:
+https://www.postman.com/gustavo-starwars/workspace/starwars/collection/15918898-1fe09542-f122-4759-b403-80bc416eb8fb?action=share&creator=15918898
