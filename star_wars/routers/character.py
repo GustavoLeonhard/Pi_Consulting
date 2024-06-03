@@ -5,8 +5,8 @@ from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 from fastapi import APIRouter, Depends, HTTPException, Path
 from starlette import status
-from ..models import Character
-from ..database import get_db
+from models import Character
+from database import get_db
 
 router = APIRouter(
     tags=['character']
