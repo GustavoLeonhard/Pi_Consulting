@@ -9,7 +9,6 @@ from models import Character
 from database import get_db
 
 router = APIRouter(
-    prefix='/character',
     tags=['character']
 )
 db_dependency = Annotated[Session, Depends(get_db)]

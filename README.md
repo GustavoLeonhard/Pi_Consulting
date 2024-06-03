@@ -39,3 +39,7 @@ View the interactive API documentation at http://127.0.0.1:8000/docs (or http://
 **Testing with Postman**
 You can run all postman test cases in this link:
 https://www.postman.com/gustavo-starwars/workspace/starwars/collection/15918898-1fe09542-f122-4759-b403-80bc416eb8fb?action=share&creator=15918898
+
+**Note:**
+When testing your endpoints with Postman, please ensure to use the correct URL http://127.0.0.1:8000/ 
+or http://localhost:8000/ if using Docker, as the base URL for your requests.
